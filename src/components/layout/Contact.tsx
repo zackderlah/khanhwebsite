@@ -23,22 +23,6 @@ export const Contact = () => {
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-[#4169E1] bg-opacity-10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-6 h-6 text-[#4169E1]" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-[#333333] mb-2">
-                    Phone
-                  </h3>
-                  <p className="text-[#666666]">
-                    +1 (555) 123-4567
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-[#4169E1] bg-opacity-10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-[#4169E1]" />
                 </div>
                 <div>
@@ -46,25 +30,7 @@ export const Contact = () => {
                     Email
                   </h3>
                   <p className="text-[#666666]">
-                    info@mknglobal.com
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-[#4169E1] bg-opacity-10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-[#4169E1]" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-[#333333] mb-2">
-                    Address
-                  </h3>
-                  <p className="text-[#666666]">
-                    123 Business Street<br />
-                    Suite 100<br />
-                    New York, NY 10001
+                    support@khanhnguyen.com
                   </p>
                 </div>
               </div>

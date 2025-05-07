@@ -1,7 +1,6 @@
 'use client'
 
 import { Container } from '@/components/shared/Container'
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 
 export const Footer = () => {
   return (
@@ -15,20 +14,6 @@ export const Footer = () => {
               <p className="text-gray-400">
                 Empowering businesses through innovative solutions and strategic growth.
               </p>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Instagram className="w-5 h-5" />
-                </a>
-              </div>
             </div>
 
             {/* Quick Links */}
@@ -90,15 +75,7 @@ export const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
               <ul className="space-y-2">
                 <li className="text-gray-400">
-                  123 Business Street<br />
-                  Suite 100<br />
-                  New York, NY 10001
-                </li>
-                <li className="text-gray-400">
-                  Phone: +1 (555) 123-4567
-                </li>
-                <li className="text-gray-400">
-                  Email: info@mknglobal.com
+                  Email: support@khanhnguyen.com
                 </li>
               </ul>
             </div>
